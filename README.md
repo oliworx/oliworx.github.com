@@ -1,8 +1,11 @@
-Pure CSS Layout Examples
+Website kurmis.com
 ========================
 
-Layout examples using [Pure CSS][pure] compiled from the [pure-site][] project.
+I setup my website using [github pages][ghp].
 
+The layout is based on layout examples using [Pure CSS][pure] compiled from the [pure-site][] project.
+
+[ghp]: https://pages.github.com/
 [pure]: http://purecss.io/
 [pure-site]: https://github.com/yahoo/pure-site
 
