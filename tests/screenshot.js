@@ -1,4 +1,4 @@
-// phantomjs --ssl-protocol=TLSv1 screenshot.js
+// phantomjs --ssl-protocol=TLSv1 screenshot.js /tmp
 var page = require('webpage').create(),
   system = require('system');
   
