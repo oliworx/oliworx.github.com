@@ -1,0 +1,3 @@
+test:
+  override:
+    - phantomjs --ssl-protocol=TLSv1 screenshot.js $CIRCLE_ARTIFACTS
