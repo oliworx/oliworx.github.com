@@ -1,4 +1,4 @@
 test:
   override:
     - phantomjs --version
-    - phantomjs --ssl-protocol=TLSv1 tests/screenshot.js $CIRCLE_ARTIFACTS
+    - phantomjs --ssl-protocol=TLSv1 --ignore-ssl-errors=true tests/screenshot.js $CIRCLE_ARTIFACTS
