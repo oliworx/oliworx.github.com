@@ -8,6 +8,7 @@ dependencies:
 test:
   pre:
     - ws -p 8086 &
+          background: true
   override:
     - phantomjs --version
     - phantomjs tests/screenshot.js $CIRCLE_ARTIFACTS
