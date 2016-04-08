@@ -1,4 +1,8 @@
+dependencies:
+  override:
+    - npm install -g phantomjs casperjs
 test:
   override:
     - phantomjs --version
     - phantomjs --ssl-protocol=TLSv1 --ignore-ssl-errors=true tests/screenshot.js $CIRCLE_ARTIFACTS
+    - casperjs test tests/casperjs-website-tests.js --xunit=$CIRCLE_TEST_REPORTS/casperjslog.xml
