@@ -9,6 +9,11 @@ The layout is based on layout examples using [Pure CSS][pure] compiled from the 
 [pure]: http://purecss.io/
 [pure-site]: https://github.com/yahoo/pure-site
 
+Build status
+------------
+
+Drone.io [![Build Status](https://drone.io/github.com/oliworx/oliworx.github.com/status.png)](https://drone.io/github.com/oliworx/oliworx.github.com/latest)
+
 
 License
 -------
