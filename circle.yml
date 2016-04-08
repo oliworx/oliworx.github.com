@@ -7,7 +7,7 @@ dependencies:
     - npm install -g phantomjs casperjs local-web-server
 test:
   pre:
-    - ws -p 8086
+    - ws -p 8086 &
   override:
     - phantomjs --version
     - phantomjs tests/screenshot.js $CIRCLE_ARTIFACTS
