@@ -1,3 +1,7 @@
+machine:
+  node:
+    version: 0.11.14
+
 dependencies:
   override:
     - npm install -g phantomjs casperjs
