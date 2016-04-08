@@ -14,6 +14,7 @@ Build status
 
 Drone.io [![Build Status](https://drone.io/github.com/oliworx/oliworx.github.com/status.png)](https://drone.io/github.com/oliworx/oliworx.github.com/latest)
 
+Circle CI [![Circle CI](https://circleci.com/gh/oliworx/oliworx.github.com.svg?style=svg)](https://circleci.com/gh/oliworx/oliworx.github.com)
 
 License
 -------
