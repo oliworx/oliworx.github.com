@@ -4,11 +4,8 @@ machine:
 
 dependencies:
   override:
-    - npm install -g phantomjs casperjs local-web-server
+    - npm install -g phantomjs casperjs
 test:
-  pre:
-    - ws -p 8086 :
-          background: true
   override:
     - phantomjs --version
     - phantomjs tests/screenshot.js $CIRCLE_ARTIFACTS
