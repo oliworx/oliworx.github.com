@@ -1,5 +1,5 @@
-FROM nginx:alpine
+FROM gists/lighttpd:latest
 MAINTAINER oliver@kurmis.com
-COPY index.html /usr/share/nginx/html
-COPY files /usr/share/nginx/html/files
-COPY img /usr/share/nginx/html/img
+COPY index.html robots.txt favicon.ico 404.html /var/www/
+COPY files /var/www/files
+COPY img /var/www/img
