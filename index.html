@@ -1,174 +1,176 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Security-Policy" content="script-src 'none' ; style-src 'unsafe-inline' ; img-src 'self' ; font-src 'none' ; object-src 'none' ;">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="personal homepage of Oliver Kurmis, Munich">
-	<title>Oliver Kurmis</title>
-	<style>
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{margin:0;color:#333;background-color:#fff}
-a{background-color:transparent}
-a:active,a:hover{outline:0}
-strong{font-weight:700}
-h1{font-size:2em;margin:.67em 0}
-li{margin-bottom:1em}
-img{border:0}
-button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
-.pure-g{letter-spacing:-.31em;*letter-spacing:normal;*word-spacing:-.43em;text-rendering:optimizespeed;font-family:FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;display:-webkit-flex;-webkit-flex-flow:row wrap;display:-ms-flexbox;-ms-flex-flow:row wrap;-ms-align-content:flex-start;-webkit-align-content:flex-start;align-content:flex-start}
-.opera-only :-o-prefocus,.pure-g{word-spacing:-.43em}
-.pure-g [class *="pure-u"]{font-family:sans-serif}
-.pure-u-1-4{display:inline-block;*display:inline;zoom:1;letter-spacing:normal;word-spacing:normal;vertical-align:top;text-rendering:auto;width:25%;*width:24.969%}
-.pure-menu{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.pure-menu-list,.pure-menu-item{position:relative}
-.pure-menu-list{list-style:none;margin:0;padding:0}
-.pure-menu-item{padding:0;margin:0;height:100%}
-.pure-menu-link,.pure-menu-heading{display:block;text-decoration:none;white-space:nowrap}
-.pure-menu-heading{text-transform:uppercase;color:#565d64}
-.pure-menu-link{color:#777}
-.pure-menu-link,.pure-menu-heading{padding:.5em 1em}
-.pure-menu-link:hover,.pure-menu-link:focus{background-color:#eee}
-.pure-button{display:inline-block;zoom:1;line-height:normal;white-space:nowrap;vertical-align:middle;text-align:center;cursor:pointer;-webkit-user-drag:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.pure-button::-moz-focus-inner{padding:0;border:0}
-.pure-button{font-family:inherit;font-size:100%;padding:.5em 1em;color:#444;color:rgba(0,0,0,.8);border:1px solid #999;border:0 rgba(0,0,0,0);background-color:#E6E6E6;text-decoration:none;border-radius:2px}
-.pure-button:hover,.pure-button:focus{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#1a000000',GradientType=0);background-image:-webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));background-image:-webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:-moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));background-image:-o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));background-image:linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1))}
-.pure-button:focus{outline:0}
-.pure-button:active{box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;border-color:#000\9}
-.pure-button::-moz-focus-inner{padding:0;border:0}
-.pure-img-responsive{max-width:100%;height:auto}
-#layout,#menu,.menu-link{-webkit-transition:all .2s ease-out;-moz-transition:all .2s ease-out;-ms-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}
-#layout{position:relative;padding-left:0}
-.content{margin:0 auto;padding:0 2em;max-width:800px;margin-bottom:50px;line-height:1.6em}
-.header{margin:0;color:#333;text-align:center;padding:2.5em 2em 0;border-bottom:1px solid #eee}
-.header h1{margin:.2em 0;font-size:3em;font-weight:300}
-.header h2{font-weight:300;color:#aaa;padding:0;margin-top:0}
-.content-subhead{margin:50px 0 20px;font-weight:300;color:#888}
-#menu{margin-left:-150px;width:150px;position:fixed;top:0;left:0;bottom:0;z-index:1000;background:#191818;overflow-y:auto;-webkit-overflow-scrolling:touch}
-#menu a{color:#999;border:none;padding:.6em 0 .6em .6em}
-#menu .pure-menu,#menu .pure-menu ul{border:none;background:transparent}
-#menu .pure-menu ul{border-top:1px solid #333}
-#menu .pure-menu li a:hover,#menu .pure-menu li a:focus{background:#333}
-#menu .pure-menu-heading{background:#1f8dd6;font-size:110%;color:#fff;margin:0}
-.menu-link{position:fixed;display:block;top:0;left:0;background:#000;background:rgba(0,0,0,0.7);font-size:10px;z-index:10;width:2em;height:auto;padding:2.1em 1.6em}
-.menu-link:hover,.menu-link:focus{background:#000}
-.menu-link span{position:relative;display:block}
-.menu-link span,.menu-link span:before,.menu-link span:after{background-color:#fff;width:100%;height:.2em}
-.menu-link span:before,.menu-link span:after{position:absolute;margin-top:-.6em;content:" "}
-.menu-link span:after{margin-top:.6em}
-@media (min-width: 48em) {
-.header,.content{padding-left:2em;padding-right:2em}
-#layout{padding-left:150px;left:0}
-#menu{left:150px}
-.menu-link{position:fixed;left:150px;display:none}
-}
-	</style>
+    <meta http-equiv="Content-Security-Policy"
+          content="script-src 'none' ; style-src 'unsafe-inline' ; img-src 'self' ; font-src 'none' ; object-src 'none' ;">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="personal homepage of Oliver Kurmis, Munich">
+    <title>Oliver Kurmis</title>
+    <style>
+        html {
+            font-family: sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+
+        body {
+            margin: 0;
+            color: #111;
+            background-color: #fff;
+            line-height: 150%;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 1em auto;
+            padding: 0 0 1em 0;
+        }
+
+        section, header {
+            max-width: 600px;
+        }
+
+        section {
+            margin: 0 auto
+        }
+
+        h1, h2 {
+            font-weight: 300
+        }
+
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 30px;
+        }
+
+        #gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        #gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #contact div {
+            text-align: center;
+            float: left;
+            width: 200px;
+            margin: 0 0 2em 0;
+        }
+
+        #profiles a {
+            padding: .2em 0.8em;
+            color: #444;
+            color: rgba(0, 0, 0, .8);
+            border: 0 rgba(0, 0, 0, 0);
+            background-color: #E6E6E6;
+            text-decoration: none;
+            border-radius: 3px;
+            line-height: 200%;
+        }
+
+        #profiles a:hover {
+            color: #E6E6E6;
+            background-color: #444;
+        }
+    </style>
 </head>
 <body>
 
-<div id="layout">
-	<!-- Menu toggle -->
-	<a href="#menu" id="menuLink" class="menu-link">
-		<!-- Hamburger icon -->
-		<span></span>
-	</a>
+<header>
+    <h1>Oliver Kurmis</h1>
+    <em>Karateka, software developer and poker enthusiast</em>
+</header>
 
-	<div id="menu">
-		<div class="pure-menu">
-			<a class="pure-menu-heading" href="#home">Home</a>
+<section>
+    <h2>About me</h2>
+    <p>
+        living in Munich, Germany<br>
+        loving technology, martial arts, history and travelling<br>
+        working as a software developer<br>
+        studying on the <a href="https://www.fom.de/studienorte/studium-in-muenchen.html">FOM Munich</a>, major <a
+            href="https://www.fom.de/studiengaenge/it-management/bachelor-studiengang/wirtschaftsinformatik.html#!ort=muenchen-12966/acc=vorlesungszeiten">business
+        information systems</a><br>
+        proud member of the <a href="http://www.kyusho-academy.com/kyusho/kyusho_eka_eng.html">European Kyusho
+        Academy</a> (EKA)
+    </p>
+</section>
 
-			<ul class="pure-menu-list">
-				<li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
-				<li class="pure-menu-item"><a href="#profiles" class="pure-menu-link">Profiles</a></li>
-				<li class="pure-menu-item"><a href="#projects" class="pure-menu-link">Projects</a></li>
-				<li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
-			</ul>
-		</div>
-	</div>
+<section id="gallery">
+    <a href="https://i.imgsafe.org/d2c89a8.jpg"><img src="img/d2c89a8-200.jpg" alt="Beijing"></a>
+    <a href="https://i.imgsafe.org/c190c7f.jpg"><img src="img/c190c7f-200.jpg" alt="Munich North"></a>
+    <a href="https://i.imgsafe.org/6a8fb78.jpeg"><img src="img/6a8fb78-200.jpg" alt="Oliver Kurmis, Karate"></a>
+    <a href="https://i.imgsafe.org/4f07f6a.jpg"><img src="img/4f07f6a-200.jpg" alt="Mallorca"></a>
+</section>
 
-	<div id="main">
-		<div id="home" class="header">
-			<h1>Oliver Kurmis</h1>
-			<h2>Karateka, software developer and poker enthusiast</h2>
-		</div>
+<section id="profiles">
+    <h2>Profiles</h2>
+    I have online profiles on these awesome web communities:<br>
+    <a href="https://github.com/oliworx">GitHub</a>
+    <a href="https://de.linkedin.com/in/oliver-kurmis-9b095163">LinkedIn</a>
+    <a href="https://www.xing.com/profile/Oliver_Kurmis">XING</a>
+    <a href="https://www.facebook.com/oliworx">facebook</a>
+    <a href="https://plus.google.com/+OliverKurmis/posts">Google+</a>
+    <a href="https://de.wikipedia.org/wiki/Benutzer:OKurmis">Wikipedia</a>
+    <a href="https://www.flickr.com/photos/kurmis/">Flickr</a>
+</section>
 
-		<div class="content">
-			<h2 id="about" class="content-subhead">About me</h2>
-			<p>
-				living in Munich, Germany<br>
-				loving technology, martial arts, history and travelling<br>
-				working as a software developer<br>
-				studying on the <a href="https://www.fom.de/studienorte/studium-in-muenchen.html">FOM Munich</a>, major <a href="https://www.fom.de/studiengaenge/it-management/bachelor-studiengang/wirtschaftsinformatik.html#!ort=muenchen-12966/acc=vorlesungszeiten">business information systems</a><br>
-				proud member of the <a href="http://www.kyusho-academy.com/kyusho/kyusho_eka_eng.html">European Kyusho Academy</a> (EKA)
-			</p>
+<section>
+    <h2>Projects</h2>
+    Some of my projects are or have been:
+    <ul>
+        <li>2016 <strong>CSV-Faker</strong><br>
+            a small tool to generate csv-files filled with faked data: <a href="https://www.kurmis.com/csv-faker/">www.kurmis.com/csv-faker</a>
+        <li>2011-today <strong>Karate USC München</strong><br>
+            <a href="https://www.karate-usc.de/">Homepage of my Karate Club</a>, using Wordpress and <a
+                    href="https://www.cloudflare.com">Cloudflare CDN</a>
+        <li>2016 <strong>The in-memory database SAP HANA</strong><br>
+            project paper <a href="https://www.kurmis.com/SAP-HANA/"><em>Die In-Memory-Datenbank SAP HANA</em></a>
+            (German)
+        <li>2015-2016 <strong>chartbench</strong><br>
+            <a href="https://github.com/oliworx/chartbench">a tool to benchmark implementations of programming
+                languages</a>
+            by performing a prime sieve algorithm implemented in PHP, Python, Perl, Ruby and TCL.
+            Long story short: <a href="https://i.imgsafe.org/5ebe606.png" title="open benchmark chart">Python on PyPy is
+                fastest</a>
+        <li>2015 <strong>Unicode - history and contemporary challenges</strong><br>
+            project paper <a href="files/unicode.pdf"><em>Unicode - Geschichte und aktuelle Herausforderungen</em></a>
+            (German PDF)
+        <li>2015 <strong>Scrumban - a combination of Scrum and Kanban</strong><br>
+            project paper <a href="files/scrumban.pdf"><em>Scrumban - eine Kombination von Scrum und Kanban</em></a>
+            (German PDF)
+        <li>2014 <strong>Optimizing MySQL requests with EXPLAIN</strong><br>
+            project paper <a href="files/explain.pdf"><em>Optimierung von MySQL Anfragen unter Zuhilfenahme von
+                Explain</em></a> (German PDF)
+        <li>2010 <strong>bizcards</strong><br>
+            Print your own business card in seconds, right from your web browser: <a
+                    href="https://www.kurmis.com/bizcards">www.kurmis.com/bizcards</a><br>
+            In 2010 I tried some new features of HTML5 here (only German so far)
+        <li>2002-2005 <strong>comdirect Informer</strong><br>
+            No.1 German online bank - information to stocks, fonds, bonds, certificates and markets.<br>
+            They developed the site further, but basically this is like what I was working on:
+            <a href="https://www.comdirect.de/inf/">www.comdirect.de/inf/</a>
+        <li>2001-2007 <strong>DAB bank</strong><br>
+            market information, virtual portfolio, certificates contest.<br>
+            In 2016 the <a href="https://www.dab-bank.de">DAB bank</a> merged with the <a
+                    href="https://www.consorsbank.de">Consors bank</a>
+    </ul>
+</section>
 
-			<div class="pure-g">
-				<div class="pure-u-1-4">
-					<a href="https://i.imgsafe.org/d2c89a8.jpg"><img class="pure-img-responsive" src="img/d2c89a8-200.jpg" alt="Beijing"></a>
-				</div>
-				<div class="pure-u-1-4">
-					<a href="https://i.imgsafe.org/c190c7f.jpg"><img class="pure-img-responsive" src="img/c190c7f-200.jpg" alt="Munich North"></a>
-				</div>
-				<div class="pure-u-1-4">
-					<a href="https://i.imgsafe.org/6a8fb78.jpeg"><img class="pure-img-responsive" src="img/6a8fb78-200.jpg" alt="Oliver Kurmis, Karate"></a>
-				</div>
-				<div class="pure-u-1-4">
-					<a href="https://i.imgsafe.org/4f07f6a.jpg"><img class="pure-img-responsive" src="img/4f07f6a-200.jpg" alt="Mallorca"></a>
-				</div>
-			</div>
-
-			<h2 id="profiles" class="content-subhead">Profiles</h2>
-			<p>
-				I have online profiles on these awesome web communities:<br>
-				<a class="pure-button" href="https://github.com/oliworx">GitHub</a>
-				<a class="pure-button" href="https://de.linkedin.com/in/oliver-kurmis-9b095163">LinkedIn</a>
-				<a class="pure-button" href="https://www.xing.com/profile/Oliver_Kurmis">XING</a>
-				<a class="pure-button" href="https://www.facebook.com/oliworx">facebook</a>
-				<a class="pure-button" href="https://plus.google.com/+OliverKurmis/posts">Google+</a>
-				<a class="pure-button" href="https://de.wikipedia.org/wiki/Benutzer:OKurmis">Wikipedia</a>
-				<a class="pure-button" href="https://www.flickr.com/photos/kurmis/">Flickr</a>
-			</p>
-
-			<h2 id="projects" class="content-subhead">Projects</h2>
-			Some of my projects are or have been:
-			<ul>
-				<li>2016 <strong>CSV-Faker</strong><br>
-					a small tool to generate csv-files filled with faked data: <a href="https://www.kurmis.com/csv-faker/">www.kurmis.com/csv-faker</a>
-				<li>2011-today <strong>Karate USC München</strong><br>
-					<a href="https://www.karate-usc.de/">Homepage of my Karate Club</a>, using Wordpress and <a href="https://www.cloudflare.com">Cloudflare CDN</a>
-				<li>2016 <strong>The in-memory database SAP HANA</strong><br>
-						project paper <a href="https://www.kurmis.com/SAP-HANA/"><em>Die In-Memory-Datenbank SAP HANA</em></a> (German)
-				<li>2015-2016 <strong>chartbench</strong><br>
-					<a href="https://github.com/oliworx/chartbench">a tool to benchmark implementations of programming languages</a>
-					by performing a prime sieve algorithm implemented in PHP, Python, Perl, Ruby and TCL.
-					Long story short: <a href="https://i.imgsafe.org/5ebe606.png" title="open benchmark chart">Python on PyPy is fastest</a>
-				<li>2015 <strong>Unicode - history and contemporary challenges</strong><br>
-					project paper <a href="files/unicode.pdf"><em>Unicode - Geschichte und aktuelle Herausforderungen</em></a> (German PDF)
-				<li>2015 <strong>Scrumban - a combination of Scrum and Kanban</strong><br>
-					project paper <a href="files/scrumban.pdf"><em>Scrumban - eine Kombination von Scrum und Kanban</em></a> (German PDF)
-				<li>2014 <strong>Optimizing MySQL requests with EXPLAIN</strong><br>
-					project paper <a href="files/explain.pdf"><em>Optimierung von MySQL Anfragen unter Zuhilfenahme von Explain</em></a> (German PDF)
-				<li>2010 <strong>bizcards</strong><br>
-				    Print your own business card  in seconds, right from your web browser: <a href="https://www.kurmis.com/bizcards">www.kurmis.com/bizcards</a><br>
-					In 2010 I tried some new features of HTML5 here (only German so far)
-				<li>2002-2005 <strong>comdirect Informer</strong><br>
-					No.1 German online bank - information to stocks, fonds, bonds, certificates and markets.<br>
-					They developed the site further, but basically this is like what I was working on:
-					<a href="https://www.comdirect.de/inf/">www.comdirect.de/inf/</a>
-				<li>2001-2007 <strong>DAB bank</strong><br>
-					market information, virtual portfolio, certificates contest.<br>
-					In 2016 the <a href="https://www.dab-bank.de">DAB bank</a> merged with the <a href="https://www.consorsbank.de">Consors bank</a>
-			</ul>
-
-			 <h2 id="contact" class="content-subhead">Contact</h2>
-		<p>email: oliver@kurmis.com</p>
-		<p>skype: oliworx</p>
-		<p>hangouts: oliver.kurmis</p>
-		<p>wechat: oliworx</p>
-		<p>phone: +49-177-3965399</p>
-		</div>
-	</div>
-</div>
-
+<section>
+    <h2>Contact</h2>
+    <div id="contact">
+        <div>email:<br>oliver@kurmis.com</div>
+        <div>skype:<br>oliworx</div>
+        <div>hangouts:<br>oliver.kurmis</div>
+        <div>wechat:<br>oliworx</div>
+        <div>phone:<br>+49-177-3965399</div>
+    </div>
+</section>
 </body>
 </html>
