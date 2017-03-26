@@ -9,13 +9,13 @@
     <title>Oliver Kurmis</title>
     <style>
         html {
-            font-family: sans-serif;
+            font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%
         }
 
         body {
-            margin: 0;
+            margin: 1em;
             color: #111;
             background-color: #fff;
             line-height: 150%;
@@ -24,16 +24,12 @@
         header {
             text-align: center;
             border-bottom: 1px solid gray;
-            margin: 1em auto;
             padding: 0 0 1em 0;
         }
 
         section, header {
-            max-width: 600px;
-        }
-
-        section {
-            margin: 0 auto
+            margin: 0 auto;
+            max-width: 700px;
         }
 
         h1, h2 {
@@ -45,10 +41,20 @@
             text-decoration: underline;
             margin-top: 30px;
         }
-
+        ul li {margin-bottom: 1em;list-style-type:circle;margin-left: -1em;}
         #gallery {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            display: -webkit-flex;
+            -webkit-flex-flow: row wrap;
+            display: -ms-flexbox;
+            -ms-flex-flow: row wrap;
+            -ms-align-content: flex-start;
+            -webkit-align-content: flex-start;
+            align-content: flex-start;
+        }
+
+        #gallery a {
+            display: inline-block;
+            width: 25%;
         }
 
         #gallery img {
@@ -64,7 +70,7 @@
         }
 
         #profiles a {
-            padding: .2em 0.8em;
+            padding: .2em 0.8em;margin: 0 0.5em;
             color: #444;
             color: rgba(0, 0, 0, .8);
             border: 0 rgba(0, 0, 0, 0);
