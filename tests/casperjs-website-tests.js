@@ -1,7 +1,7 @@
 casper.test.begin('kurmis.com homepage', 8, function suite(test) {
   casper.start("https://www.kurmis.com/", function() {
     test.assertTitle("Oliver Kurmis", "kurmis.com homepage title is the one expected");
-	test.assertElementCount('img', 4, "there are 4 images just as expected");
+	test.assertElementCount('#gallery img', 4, "there are 4 gallery images just as expected");
 	test.assertElementCount('h2', 4, "there are 5 H2 headings just as expected");
 	test.assertResourceExists('d2c89a8-200.jpg', 'Image Beijing confirmed');
 	test.assertResourceExists('c190c7f-200.jpg', 'Image Munich confirmed');
