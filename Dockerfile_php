@@ -1,8 +1,0 @@
-FROM php:7-alpine
-MAINTAINER oliver@kurmis.com
-WORKDIR /srv
-COPY index.html robots.txt favicon.ico 404.html /srv/
-COPY files /srv/files
-COPY img /srv/img
-EXPOSE 80/tcp
-ENTRYPOINT php -S 0.0.0.0:80
