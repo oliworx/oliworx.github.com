@@ -21,7 +21,7 @@ sudo apt install ruby-bundler ruby-dev make gcc g++ zlib1g-dev
 
 Install Jekyll and other dependencies:
 ```
-bundle install
+sudo bundle install
 ```
 
 To compile and run the Jekyll powered site: 
