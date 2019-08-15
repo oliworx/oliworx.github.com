@@ -5,9 +5,7 @@ layout: blog
 
 {% for post in site.posts %}
 <section>
-  <h2>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </h2>
+  <h2>{{ post.title }}</h2>
   {{ post.content }}
 </section>
 {% endfor %}
