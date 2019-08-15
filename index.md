@@ -9,6 +9,10 @@ layout: default
 {%- include gallery.md -%}
 </section>
 
+<section>
+{%- include blog.md -%}
+</section>
+
 <section id="s-profiles">
 {%- include profiles.md -%}
 </section>
