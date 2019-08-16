@@ -29,6 +29,21 @@ To compile and run the Jekyll powered site:
 bundle exec jekyll serve
 ```
 
+Syntax highlighting
+-------------------
+
+install the rouge gem
+
+    gem install kramdown rouge
+
+list the available styles:
+
+    rougify help style
+    
+generate the css file for the monokay style
+
+    rougify style monokai > styles/syntax.css
+
 License
 -------
 
