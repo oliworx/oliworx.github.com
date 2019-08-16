@@ -9,7 +9,6 @@ I run my personal website using [GitHub Pages][ghp] and [Cloudflare CDN][cf].
 Build status
 ------------
 
-[![Circle CI](https://circleci.com/gh/oliworx/oliworx.github.com.svg?style=svg)](https://circleci.com/gh/oliworx/oliworx.github.com) Circle CI  
 [![Build Status](https://semaphoreci.com/api/v1/oliworx/oliworx-github-com/branches/master/shields_badge.svg)](https://semaphoreci.com/oliworx/oliworx-github-com) Semaphore CI
 
 Local development with Jekyll
