@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Reset and sync local git repository with remote branch"
 tags:
   - git
   - shell
