@@ -1,5 +1,4 @@
 ---
-published: false
 layout: post
 tags:
   - git
