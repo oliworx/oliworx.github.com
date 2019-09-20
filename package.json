@@ -1,0 +1,30 @@
+{
+  "name": "kurmis.com",
+  "version": "1.0.0",
+  "description": "personal homepage",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "bundle exec jekyll serve",
+    "test": "casperjs test tests/casperjs-website-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliworx/oliworx.github.com.git"
+  },
+  "keywords": [
+    "homepage"
+  ],
+  "author": "oliver@kurmis.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliworx/oliworx.github.com/issues"
+  },
+  "homepage": "https://www.kurmis.com",
+  "devDependencies": {
+    "casperjs": "^1.1.4",
+    "phantomjs": "^2.1.7"
+  }
+}
