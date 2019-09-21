@@ -18,7 +18,10 @@ exclude:
    - circle.yml
    - README.md
    - LICENSE.md
+   - generate-tags.py
    - .gitignore
+   - package.json
+   - package-lock.json
 
 markdown: kramdown
 highlighter: rouge

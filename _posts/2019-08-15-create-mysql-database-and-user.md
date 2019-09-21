@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to create a MySQL/MariaDB database and user"
-tags: [mysql, mariadb, sql]
+tags: mysql mariadb sql
 ---
 
 When you want to create a new Database for MySQL or MariaDB and an extra DB user for it:

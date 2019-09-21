@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "How to drastically increase Docker performance on Mac and Windows"
-tags:
-  - docker
-  - performance
-  - mac
-  - windows
+tags: docker performance mac windows
 ---
 On Windows and Mac you will probably see a poor performance for your
 thoroughly dockerized application. This is due to very slow storage

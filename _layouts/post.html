@@ -11,6 +11,14 @@
 {{ content }}
 </section>
 
+<section id="tags">
+    <hr style="width: 40%">
+    Tags:
+    {% for tag in page.tags %}
+    <a class="post" href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+</section>
+
 {%- include footer.html -%}
 </body>
 </html>

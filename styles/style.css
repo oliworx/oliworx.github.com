@@ -94,3 +94,9 @@ ul li {
     color: #E6E6E6;
     background-color: #444;
 }
+
+#tags {
+    margin-top: 0.8em;
+    text-align: center;
+    font-size: smaller;
+}
