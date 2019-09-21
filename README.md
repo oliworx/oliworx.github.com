@@ -28,6 +28,11 @@ To compile and run the Jekyll powered site:
 bundle exec jekyll serve
 ```
 
+Generate tag pages
+------------------
+Run `python3 generate-tags.py` or just `npm run tags`.  
+Credit for the awesome python script goes to [qian256](https://github.com/qian256/qian256.github.io/blob/master/tag_generator.py) .
+
 Syntax highlighting
 -------------------
 
