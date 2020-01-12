@@ -1,5 +1,7 @@
 ---
 layout: minimum
+title: Hochzeit von Julia und Oli
+description: Wir heiraten!
 ---
 
 <header>
@@ -10,9 +12,9 @@ layout: minimum
 {::options parse_block_html="true" /}
 <section>
 
-## Zeitplan:
+## Zeitplan
 
- * 11:30 treffen am [Trausaal Mandlstraße 14](https://goo.gl/maps/1R3dhw9SqHuVk3Cq6)
+ * 11:30 Treffen am [Trausaal Mandlstraße 14](https://goo.gl/maps/1R3dhw9SqHuVk3Cq6)
  * 11:45 - 12:00 Trauung
  * 12:00 - 12:20 Fotos
  * 12:20 - 12:40 Spaziergang zum [Seehaus im Englischen Garten](https://goo.gl/maps/uNe7keU7nyiCpGLs7)
@@ -51,15 +53,42 @@ layout: minimum
 </table>
 
 </section>
+
+<section>
+
+## Anfahrt
+### Trausaal
+
+Von der [Münchner Freiheit](https://goo.gl/maps/Neyh8UBfpwZDNH7S7)
+(U-Bahn U3/U6) ist der
+[Trausaal](https://goo.gl/maps/1R3dhw9SqHuVk3Cq6) zu Fuss
+in 8 Minuten zu erreichen.
+
+Wer mit dem Auto kommt, kann versuchen in der Nähe des Trausaales
+einen (kostenpflichtigen) Parkplatz zu finden,
+es gibt aber auch eine Tiefgarage an der Münchner Freiheit
+(Feilitzschhöfe, [Feilitzschstraße 8](https://goo.gl/maps/CSuTZL1vebrAsVyEA)).
+
+### Seehaus
+Am [Seehaus im Englischen Garten](https://goo.gl/maps/uNe7keU7nyiCpGLs7)
+gibt es auch kostenpflichtige Parkplätze.
+
+### Moosach
+Zu [uns nach Moosach](https://goo.gl/maps/mgYWvRajwJeKMePt7)
+geht es am besten mit der U3 (Endstation Moosach).
+
+Parkmöglichkeiten gibt es in der Baubergerstraße oder im
+[Kaufland um die Ecke](https://goo.gl/maps/imTk5xgm4TJrMpex6).
+
+</section>
+
 {::options parse_block_html="false" /}
 
-<footer>
+<footer style="margin-top: 50px">
     © 2020 Oliver Kurmis &lt;oliver@kurmis.com&gt;
     <br>
     <small>
-    ┏(-_-)┛┗(-_- )┓┗(-_-)┛┏(-_-)┓
     wer das "Easter Egg" zuerst findet bekommt eine Überraschung
-    ┏(-_-)┛┗(-_- )┓┗(-_-)┛┏(-_-)┓
     </small>
     <!-- hier ist das Easter Egg nicht zu finden (•‿•) -->
 </footer>

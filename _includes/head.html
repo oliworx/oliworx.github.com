@@ -4,8 +4,10 @@
     <meta name="referrer" content="no-referrer">
     <meta http-equiv="Content-Security-Policy"
           content="default-src 'none'; base-uri 'self'; form-action 'none'; script-src 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self'; media-src 'none'; frame-src 'none'; frame-ancestors 'none'; font-src 'none'; connect-src 'none'">
-    <meta name="description" content="personal homepage of Oliver Kurmis, Munich">
-    <title>Oliver Kurmis</title>
+    <meta name="description" content="{{ page.description | default: "personal homepage of Oliver Kurmis, Munich" }}">
+    <title>
+          {{ page.title | default: "Oliver Kurmis" }}
+    </title>
     <style>
         {% include style.min.css %}
     </style>
