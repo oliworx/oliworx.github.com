@@ -1,7 +1,7 @@
 Website kurmis.com
 ==================
 
-I run my personal website using [GitHub Pages][ghp] and [Cloudflare CDN][cf].
+My personal website using [GitHub Pages][ghp] and [Cloudflare CDN][cf].
 
 [ghp]: https://pages.github.com/
 [cf]: https://www.cloudflare.com/
