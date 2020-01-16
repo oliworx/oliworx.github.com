@@ -31,7 +31,7 @@ Some of my projects are or have been:
  * 2002-2005 **comdirect Informer**  
    No.1 German online bank - information to stocks, fonds, bonds, certificates and markets  
    They developed their site further, but basically this is like what I was working on:
-   [https://www.comdirect.de/inf/](www.comdirect.de/inf/)
+   [https://www.comdirect.de/inf/](https://www.comdirect.de/inf/)
  * 2001-2007 **DAB bank**  
    market information, virtual portfolio, certificates contest  
    In 2016 the [DAB bank](https://www.dab-bank.de) merged with the [Consors bank](https://www.consorsbank.de)

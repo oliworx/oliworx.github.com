@@ -82,6 +82,33 @@ Parkmöglichkeiten gibt es in der Baubergerstraße oder im
 
 </section>
 
+<section style="text-align: center">
+
+## Menü
+### Vorspeise
+**Lauchsuppe**  
+Frischkäse Profiterol, Schwarzkümmelöl
+
+### Hauptgang
+Auswahl zwischen:
+
+**Alpenlachs**  
+Gegrillter Lauch, Vanille-Kürbispüree
+
+oder:
+
+**Halbe resch gebratene Ente**  
+Kartoffelknödel, Blaukraut, Schmelze
+
+oder:
+
+**Flammkuchen**  
+Creme fraiche, Spinat, Walnuss, Trüffel
+
+### Dessert
+**Bayerisch Creme**  
+Himbeermark
+</section>
 {::options parse_block_html="false" /}
 
 <footer style="margin-top: 50px">
