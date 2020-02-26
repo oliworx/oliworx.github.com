@@ -1,11 +1,11 @@
 ---
 layout: minimum
-title: Hochzeit von Julia und Oli
+title: Hochzeit von Julia & Oli
 description: Wir heiraten!
 ---
 
 <header>
-    <h1>Hochzeit von Julia und Oli</h1>
+    <h1>Hochzeit von Julia & Oli</h1>
     <em>am 28. Februar 2020 in München</em>
 </header>
 
@@ -83,6 +83,10 @@ Parkmöglichkeiten gibt es in der Baubergerstraße oder im
 </section>
 
 <section style="text-align: center">
+
+## Sitzplan Seehaus
+
+<img src="/img/sitzplan.png" width="330">
 
 ## Menü
 ### Vorspeise
