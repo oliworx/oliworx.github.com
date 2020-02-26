@@ -115,6 +115,10 @@ Himbeermark
 </section>
 {::options parse_block_html="false" /}
 
+## Wetter
+
+<div id="wcom-f14c8aaecf561ca5eadf2568e215d8ce" style="margin: auto; border: 1px solid rgb(204, 204, 204); background-color: transparent; border-radius: 0px;" class="wcom-default w300x250"><link rel="stylesheet" href="//cs3.wettercomassets.com/woys/5/css/w.css" media="all"><div class="wcom-city"><a style="color: #000" href="https://www.wetter.com/deutschland/muenchen/DE0006515.html" target="_blank" rel="nofollow" aria-label="Wetter Berlin" title="Wetter München">Wetter München</a></div><div id="wcom-f14c8aaecf561ca5eadf2568e215d8ce-weather"></div><script type="text/javascript" src="//cs3.wettercomassets.com/woys/5/js/w.js"></script><script type="text/javascript">_wcomWidget({id: 'wcom-f14c8aaecf561ca5eadf2568e215d8ce',location: 'DE0006515',format: '300x250',type: 'summary'});</script></div>
+
 <footer style="margin-top: 50px">
     © 2020 Oliver Kurmis &lt;oliver@kurmis.com&gt;
     <br>
