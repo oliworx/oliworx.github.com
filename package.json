@@ -4,7 +4,7 @@
   "description": "personal homepage",
   "engines": {
     "node": ">=8.7",
-    "npm" : "~5.4.2",
+    "npm": "~5.4.2",
     "python": ">=3.6",
     "ruby": ">=2.5"
   },
@@ -33,6 +33,6 @@
   "homepage": "https://www.kurmis.com",
   "devDependencies": {
     "casperjs": "^1.1.4",
-    "phantomjs": "^2.1.7"
+    "phantomjs-prebuilt": "^2.1.16"
   }
 }
