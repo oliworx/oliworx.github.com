@@ -2,7 +2,7 @@
 
 Some of my projects are or have been:
 
- * 2017-today **aboalarm**  
+ * 2017-2020 **aboalarm**  
    B2C portal helping people to cancel their contracts and subscriptions: [aboalarm.de](https://www.aboalarm.de) (German website)
  * 2018 **pdf2png-service**  
    a webservice to convert PDF files to PNG images, based on Node.js: [www.kurmis.com/pdf2png-service](https://www.kurmis.com/pdf2png-service/)
