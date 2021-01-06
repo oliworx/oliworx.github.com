@@ -6,7 +6,7 @@ layout: blog
 {% for post in site.posts %}
 <section>
   <h2>{{ post.title }}</h2>
-  <time>{{ post.date | date: "%-d %B %Y" }}</time>
+  <time datetime="{{ page.date | date: "%F" }}">{{ post.date | date: "%-d %B %Y" }}</time>
   {{ post.content }}
 </section>
 {% endfor %}

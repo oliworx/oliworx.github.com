@@ -1,15 +1,19 @@
+---
+layout: compress
+---
+
 <!doctype html>
 <html lang="en">
-
+<head>
 {%- include head.html -%}
-
+</head>
 <body>
 {%- include blog-header.html -%}
 <article>
 
   <section>
     <h2>{{ page.title }}</h2>
-    <i>published <time>{{ page.date | date_to_long_string }}</time></i>
+    <i>published <time datetime="{{ page.date  | date: "%F" }}">{{ page.date | date_to_long_string }}</time></i>
     {{ content }}
   </section>
 
