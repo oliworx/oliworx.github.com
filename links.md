@@ -7,10 +7,15 @@ layout: default
 {::options parse_block_html="true" /}
 
 <section>
-Classical art: [artvee.com](https://artvee.com)  
-Website insector: [urlscan.io](https://urlscan.io)
+Free classical art: [artvee.com](https://artvee.com)  
+Website inspector: [urlscan.io](https://urlscan.io)
 
-### Classic Operation Systems to try in the Web brwoser
+### Password checking
+ * Password Strength Test in the browser: [rumkin.com/tools/password/passchk.php](http://rumkin.com/tools/password/passchk.php)
+ * Interactive brute force search space calculator: [grc.com/haystack.htm](https://www.grc.com/haystack.htm)
+ * Check against previously exposed in data breaches: [haveibeenpwned.com/Passwords](https://haveibeenpwned.com/Passwords)
+
+### Classic Operation Systems to try in the web browser
 
  * Amiga Workbench Simulator: [taws.ch/WB.html](https://taws.ch/WB.html)
  * Windows 1.0: [www.pcjs.org/software/pcx86/sys/windows/1.01/](https://www.pcjs.org/software/pcx86/sys/windows/1.01/)
