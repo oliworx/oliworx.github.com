@@ -1,6 +1,5 @@
 {
   "name": "kurmis.com",
-  "version": "1.0.0",
   "description": "personal homepage",
   "engines": {
     "node": ">=8.7",
