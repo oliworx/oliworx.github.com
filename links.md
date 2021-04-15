@@ -8,43 +8,47 @@ layout: default
 
 <section>
 
-### Misc
- * Free classical art: [artvee.com](https://artvee.com)
- * Website inspector: [urlscan.io](https://urlscan.io)
-
 ### Some tools I like to use
 
 #### Software Development
- * Linux Mint
- * MX Linux
- * PhpStorm
- * PHPUnit
- * Git
- * NewRelic
- * Laravel
- * Cypress
- * Docker
- * GitLab
- * GitHub
+[Linux Mint](https://linuxmint.com/)
+ | [MX Linux](https://mxlinux.org/)
+ | [PhpStorm](https://www.jetbrains.com/phpstorm/)
+ | [PHPUnit](https://phpunit.de/)
+ | [Git](https://git-scm.com/)
+ | [New Relic](https://newrelic.com/)
+ | [Laravel](https://laravel.com/)
+ | [Cypress](https://www.cypress.io/)
+ | [Docker](https://www.docker.com/)
+ | [GitLab](https://about.gitlab.com/)
+ | [GitHub](https://github.com/)
 
 #### Tools and Services to build my homepage
- * [Github Pages](https://pages.github.com)
+ * [GitHub Pages](https://pages.github.com)
  * static website made with [Jekyll](https://jekyllrb.com)
- * Online Markdown editor for GitHub: [prose.io](https://prose.io)
  * [Cloudflare](https://www.cloudflare.com) as CDN and TLS termination
  * Photo gallery made with [thumbsup](https://thumbsup.github.io)
+ * Online Markdown editor for GitHub: [prose.io](https://prose.io)
+ * [Semaphore CI](https://semaphoreci.com/) for automatic testing
+
+#### more useful links for development
+* [urlscan.io Website inspector](https://urlscan.io)
+* [Stack on a budget](https://github.com/255kb/stack-on-a-budget) : Free Tier Driven Development FTDD
+* [Pingdom Website Speed Test](https://tools.pingdom.com/)
+* [UptimeRobot](https://uptimerobot.com/): Website uptime monitoring with free tier
+* [SSL Server Test](https://www.ssllabs.com/ssltest/):  deep analysis of the configuration of any SSL/TLS web server on the public Internet
 
 ### Some YouTube channels I follow
- * [The 8-Bit Guy](https://www.youtube.com/user/adric22): retro technology from the 80's, 90's and 2000's
+ * [The 8-Bit Guy](https://www.youtube.com/channel/UC8uT9cgJorJPWu7ITLGo9Ww): retro technology from the 80's, 90's and 2000's
  * [ETA PRIME](https://www.youtube.com/channel/UC_0CVCfC_3iuHqmyClu59Uw): Tutorials, Retro Emulation and Gameplay On Raspberry pi, Android, PC, Mac, And Other Single Board Computers.
- * [LGR](https://www.youtube.com/c/Lazygamereviews/about): Classic computer gaming, Oddware, thrifting, Tech Tales, Sims, etc
+ * [LGR](https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ): Classic computer gaming, Oddware, thrifting, Tech Tales, Sims, etc
  * [CPU Galaxy](https://www.youtube.com/channel/UC2H-q9ZkIEwdNazdCZJTdsg):  vintage cpus, computer hardware and interesting old electronic stuff
  * [Coder's Tape](https://www.youtube.com/channel/UCQI-Ym2rLZx52vEoqlPQMdg): Laravel / PHP tutorials
  * [Laravel Podcast](https://www.youtube.com/channel/UCfSLACOAW4GPMis9oTZtbpQ): Laravel and PHP development news and discussion
  * [ExplainingComputers](https://www.youtube.com/channel/UCbiGcwDWZjz05njNPrJU7jA): weekly computing videos
  * [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw): some combination of math and entertainment
  * [Tom Scott](https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A)
- * [Kimono Mom](https://www.youtube.com/c/KimonoMom/featured): daily food of a Japanese family in Tokyo
+ * [Kimono Mom](https://www.youtube.com/channel/UCLLC4hipTYA1e-Rv-l31Z_w): daily food of a Japanese family in Tokyo
 
 #### German channels:
  * [Prof. Dr. Christian Rieck](https://www.youtube.com/channel/UCSExr_QUT6h-4sGW5hGjrCA):  jede Woche eine spieltheoretische Analyse
@@ -70,5 +74,8 @@ layout: default
  * EmuOS, emulator-focused Win9X desktop: [emupedia.net/beta/emuos](https://emupedia.net/beta/emuos/)
  * Windows 93, a "fictional version of Windows": [www.windows93.net](http://www.windows93.net/)
  * 98.js, a web based Windows 98 desktop remake [98.js.org](https://98.js.org)
+
+### Misc
+* Free classical art: [artvee.com](https://artvee.com)
 
 </section>
