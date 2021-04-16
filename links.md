@@ -18,8 +18,13 @@ layout: default
  | [Git](https://git-scm.com/)
  | [New Relic](https://newrelic.com/)
  | [Laravel](https://laravel.com/)
+ | [MariaDB](https://mariadb.com)
+ | [MySQL](https://www.mysql.com/)
+ | [Redis](https://redis.io/)
+ | [Node.js](https://nodejs.org/)
  | [Cypress](https://www.cypress.io/)
  | [Docker](https://www.docker.com/)
+ | [Docker Compose](https://github.com/docker/compose)
  | [GitLab](https://about.gitlab.com/)
  | [GitHub](https://github.com/)
 
