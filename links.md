@@ -36,12 +36,13 @@ layout: default
  * Online Markdown editor for GitHub: [prose.io](https://prose.io)
  * [Semaphore CI](https://semaphoreci.com/) for automatic testing
 
-#### more useful links for development
-* [urlscan.io Website inspector](https://urlscan.io)
-* [Stack on a budget](https://github.com/255kb/stack-on-a-budget) : Free Tier Driven Development FTDD
+#### more useful links for web development
+* [urlscan.io](https://urlscan.io): Website inspector
+* [webhook.site](https://webhook.site/): instantly get a unique, random URL that you can use to test and debug Webhooks and HTTP requests
+* [Stack on a budget](https://github.com/255kb/stack-on-a-budget): Free Tier Driven Development FTDD
 * [Pingdom Website Speed Test](https://tools.pingdom.com/)
 * [UptimeRobot](https://uptimerobot.com/): Website uptime monitoring with free tier
-* [SSL Server Test](https://www.ssllabs.com/ssltest/):  deep analysis of the configuration of any SSL/TLS web server on the public Internet
+* [SSL Server Test](https://www.ssllabs.com/ssltest/): deep analysis of the configuration of any SSL/TLS web server on the public Internet
 
 ### Some YouTube channels I follow
  * [The 8-Bit Guy](https://www.youtube.com/channel/UC8uT9cgJorJPWu7ITLGo9Ww): retro technology from the 80's, 90's and 2000's
