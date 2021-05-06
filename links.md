@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 
 ## Links
@@ -43,6 +44,7 @@ layout: default
 * [Pingdom Website Speed Test](https://tools.pingdom.com/)
 * [UptimeRobot](https://uptimerobot.com/): Website uptime monitoring with free tier
 * [SSL Server Test](https://www.ssllabs.com/ssltest/): deep analysis of the configuration of any SSL/TLS web server on the public Internet
+* [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) to check the maturity of the software development process
 
 ### Some YouTube channels I follow
  * [The 8-Bit Guy](https://www.youtube.com/channel/UC8uT9cgJorJPWu7ITLGo9Ww): retro technology from the 80's, 90's and 2000's
