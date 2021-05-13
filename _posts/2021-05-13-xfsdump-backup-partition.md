@@ -1,8 +1,8 @@
 ---
-published: false
+published: true
 layout: post
 tags: backup shell terminal xfs
-title: Fast and efficient backup of  xfs partition
+title: Fast and efficient backup of  XFS partition
 ---
 If you are using the [XFS](https://en.wikipedia.org/wiki/XFS) filesystem for your Linux partition you can create full and incremental backups with the powerful tool `xfsdump`. 
 
