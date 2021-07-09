@@ -35,7 +35,7 @@ published: true
  * [Cloudflare](https://www.cloudflare.com) as CDN and TLS termination
  * Photo gallery made with [thumbsup](https://thumbsup.github.io)
  * Online Markdown editor for GitHub: [prose.io](https://prose.io)
- * [Semaphore CI](https://semaphoreci.com/) for automatic testing
+ * [Semaphore CI](https://semaphoreci.com/oliworx/oliworx-github-com) for automatic testing on every update
 
 #### more useful links for web development
 * [urlscan.io](https://urlscan.io): Website inspector
