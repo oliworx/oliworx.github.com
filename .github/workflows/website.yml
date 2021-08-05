@@ -20,3 +20,8 @@ jobs:
       run: npm ci
     - name: Run tests
       run: npm test
+    - name: Applitools Eyes
+      uses: colbyfayock/applitools-eyes-action@main
+      with:
+        APPLITOOLS_API_KEY: ${{secrets.APPLITOOLS_API_KEY}}
+        baseUrl: https://www.kurmis.com/
