@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 tags: backup shell terminal rsync
 title: Storage efficient backup with rsync on Linux
