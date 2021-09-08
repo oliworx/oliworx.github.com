@@ -26,7 +26,9 @@ source=/home/oli/
 target=/media/oli/Seagate_4TB/Backup/vostro/rsync-tool/
 today=$(date +%Y-%m-%d)
 
-rsync -av --delete --exclude-from=/home/oli/rsync-homedir-excludes/rsync-homedir-excludes.txt "${source}"  "${target}${today}/" --link-dest="${target}last/"
+rsync -av --delete --exclude-from=/home/oli/rsync-homedir-excludes/rsync-homedir-excludes.txt \
+        "${source}"  "${target}${today}/" --link-dest="${target}last/"
+
 ln -nsf "${target}${today}" "${target}last"
 
 exit 0
@@ -43,7 +45,7 @@ exit 0
 
 ### Result
 
-The backup will chreate a new folder for the date dotay in the target directory:
+The backup will create a new folder for the current date in the target directory:
 
 ```text
 drwxr-xr-x 52 oli oli 4096 Mai  1 13:23 2021-05-01
@@ -58,7 +60,7 @@ lrwxrwxrwx  1 oli oli   58 Aug  8 09:39 last -> /media/oli/Seagate_4TB/Backup/vo
 
 Every folder will contain a full copy of the source directory at the respective date, but will require just the storage space of the new and changed files. All unchanged files will be hard-linked, so they will just use an inode.
 
-Even on my 10 years old Laptop with USB 2.0 the whole backup takes just some minutes, due to the efficiency of rsync
+Even on my 10 years old Laptop with USB 2.0 the backup of the home partition takes just some minutes, due to the efficiency of rsync
 ```text
 Projects/html/oliworx.github.com/.git/refs/remotes/origin/master
 Projects/html/oliworx.github.com/.github/workflows/
