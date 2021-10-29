@@ -86,5 +86,6 @@ published: true
 
 ### Misc
 * Free classical art: [artvee.com](https://artvee.com)
+* High resolution photos mainly from the Alps [foto-webcam.eu](https://www.foto-webcam.eu/)
 
 </section>
