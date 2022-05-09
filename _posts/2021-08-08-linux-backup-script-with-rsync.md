@@ -12,7 +12,7 @@ title: Storage efficient backup with rsync on Linux
 - incremental backups
 - don't backup unimportant files like browser cache
 - only standard tools should be required
-- backup conten t should be easy to access and restore
+- backup content should be easy to access and restore
 
 
 ### The backup script
