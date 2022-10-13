@@ -52,12 +52,12 @@ published: true
  * [LGR](https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ): Classic computer gaming, Oddware, thrifting, Tech Tales, Sims, etc
  * [CPU Galaxy](https://www.youtube.com/channel/UC2H-q9ZkIEwdNazdCZJTdsg):  vintage cpus, computer hardware and interesting old electronic stuff
  * [Coder's Tape](https://www.youtube.com/channel/UCQI-Ym2rLZx52vEoqlPQMdg): Laravel / PHP tutorials
+ * [Laravel Daily](https://www.youtube.com/c/LaravelDaily) : Daily tips and tricks for Laravel and PHP
  * [Laravel Podcast](https://www.youtube.com/channel/UCfSLACOAW4GPMis9oTZtbpQ): Laravel and PHP development news and discussion
  * [Continuous Delivery](https://www.youtube.com/channel/UCCfqyGl3nq_V0bo64CjZh8g) by Dave Farley: Explores ideas that help to produce Better Software Faster: Continuous Delivery, DevOps, TDD and Software Engineering
  * [ExplainingComputers](https://www.youtube.com/channel/UCbiGcwDWZjz05njNPrJU7jA): weekly computing videos
  * [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw): some combination of math and entertainment
  * [Tom Scott](https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A): funny british guy with interesting videos
- * [Kimono Mom](https://www.youtube.com/channel/UCLLC4hipTYA1e-Rv-l31Z_w): daily food of a Japanese family in Tokyo
 
 #### German channels:
  * [Prof. Dr. Christian Rieck](https://www.youtube.com/channel/UCSExr_QUT6h-4sGW5hGjrCA):  jede Woche eine spieltheoretische Analyse
