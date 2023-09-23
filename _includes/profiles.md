@@ -6,4 +6,3 @@ I have online profiles on these awesome web communities:
 [XING](https://www.xing.com/profile/Oliver_Kurmis)
 [facebook](https://www.facebook.com/oliworx)
 [Wikipedia](https://de.wikipedia.org/wiki/Benutzer:OKurmis)
-[Flickr](https://www.flickr.com/photos/kurmis/)
