@@ -13,5 +13,5 @@ I want to show my approach to automate this process with [GitLab CI](https://doc
 so I am able to update, merge and deploy 8 [Laravel](https://laravel.com/) applications every Monday morning 
 right before I finish my first mug of coffee.
 
-See my talk at the [PHP user group Munich](https://www.meetup.com/de-DE/phpugmunich/):
-[gist.github.com/oliworx/d579f...](https://gist.github.com/oliworx/d579f3b422289aa28790bddd83ed3206)
+See my talk [_Let's automate composer updates_](https://gist.github.com/oliworx/d579f3b422289aa28790bddd83ed3206)
+at the [PHP user group Munich](https://www.meetup.com/de-DE/phpugmunich/). 
