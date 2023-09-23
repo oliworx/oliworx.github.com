@@ -13,12 +13,14 @@ published: true
 
 #### Software Development
 [Linux Mint](https://linuxmint.com/)
- | [MX Linux](https://mxlinux.org/)
  | [PhpStorm](https://www.jetbrains.com/phpstorm/)
  | [PHPUnit](https://phpunit.de/)
  | [Git](https://git-scm.com/)
  | [New Relic](https://newrelic.com/)
+ | [Sentry](https://sentry.io/)
  | [Laravel](https://laravel.com/)
+ | [Laravel Vapor](https://vapor.laravel.com/)
+ | [AWS](https://aws.amazon.com/)
  | [MariaDB](https://mariadb.com)
  | [MySQL](https://www.mysql.com/)
  | [Redis](https://redis.io/)
