@@ -14,7 +14,6 @@ title: Storage efficient backup with rsync on Linux
 - only standard tools should be required
 - backup content should be easy to access and restore
 
-
 ### The backup script
 
 This is my `backup-home.sh` shell script:
@@ -34,11 +33,10 @@ ln -nsf "${target}${today}" "${target}last"
 exit 0
 ```
 
-
 ### How to use
 - make the script executable: `chmod +x backup-home.sh`
 - copy it to a folder of our PATH : `cp backup-home.sh ~/.local/bin`
-- grap a copy of [rsync-homedir-excludes/rsync-homedir-excludes.txt](https://github.com/rubo77/rsync-homedir-excludes) and modify it to your needs
+- get a copy of [rsync-homedir-excludes/rsync-homedir-excludes.txt](https://github.com/rubo77/rsync-homedir-excludes) and modify it to your needs
 - create a linux partition on an external drive, like Ext4 or XFS
 - plug in the external drive to store the backup
 - open a terminal an run `backup-home.sh` to start a new backup
