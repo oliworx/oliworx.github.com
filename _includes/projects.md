@@ -2,6 +2,8 @@
 
 Some of my projects are or have been:
 
+ * 2024 Relaunch **Karate USC München**  
+   [Homepage of my Karate Club](https://www.karate-usc.de), using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) and [Jekyll](https://jekyllrb.com/)
  * 2017-2020 **aboalarm**  
    B2C portal helping people to cancel their contracts and subscriptions: [aboalarm.de](https://www.aboalarm.de) (German website)
  * 2018 **pdf2png-service**  
@@ -10,7 +12,7 @@ Some of my projects are or have been:
    quickly generate random passords in the web browser [www.kurmis.com/password-generator](https://www.kurmis.com/password-generator/)
  * 2016 **CSV-Faker**  
    a small tool written in Ruby to generate CSV files filled with faked data: [www.kurmis.com/csv-faker](https://www.kurmis.com/csv-faker/)
- * 2011-today **Karate USC München**  
+ * 2011-2024 **Karate USC München**  
    [Homepage of my Karate Club](https://www.karate-usc.de), using Wordpress and [Cloudflare](https://www.cloudflare.com) CDN
  * 2016 **The in-memory database SAP HANA**  
     project paper [_Die In-Memory-Datenbank SAP HANA_](https://www.kurmis.com/SAP-HANA/) (German)
