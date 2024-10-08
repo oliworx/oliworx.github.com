@@ -11,7 +11,7 @@ published: true
 
 ### Some tools I like to use
 
-#### Software Development
+#### Software development
 [Linux Mint](https://linuxmint.com/)
  | [PhpStorm](https://www.jetbrains.com/phpstorm/)
  | [PHPUnit](https://phpunit.de/)
@@ -31,15 +31,14 @@ published: true
  | [GitLab](https://about.gitlab.com/)
  | [GitHub](https://github.com/)
 
-#### Tools and Services to build my homepage
+#### Tools and services to build my homepage
  * [GitHub Pages](https://pages.github.com)
- * static website made with [Jekyll](https://jekyllrb.com)
+ * Static website made with [Jekyll](https://jekyllrb.com)
  * [Cloudflare](https://www.cloudflare.com) as CDN and TLS termination
  * Photo gallery made with [thumbsup](https://thumbsup.github.io)
  * Online Markdown editor for GitHub: [prose.io](https://prose.io)
- * [Semaphore CI](https://semaphoreci.com/oliworx/oliworx-github-com) for automatic testing on every update
 
-#### more useful links for web development
+#### More useful links for web development
 * [urlscan.io](https://urlscan.io): Website inspector
 * [webhook.site](https://webhook.site/): instantly get a unique, random URL that you can use to test and debug Webhooks and HTTP requests
 * [Stack on a budget](https://github.com/255kb/stack-on-a-budget): Free Tier Driven Development FTDD
@@ -50,7 +49,6 @@ published: true
 
 ### Some YouTube channels I follow
  * [The 8-Bit Guy](https://www.youtube.com/channel/UC8uT9cgJorJPWu7ITLGo9Ww): retro technology from the 80's, 90's and 2000's
- * [ETA PRIME](https://www.youtube.com/channel/UC_0CVCfC_3iuHqmyClu59Uw): Tutorials, Retro Emulation and Gameplay On Raspberry pi, Android, PC, Mac, And Other Single Board Computers.
  * [LGR](https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ): Classic computer gaming, Oddware, thrifting, Tech Tales, Sims, etc
  * [CPU Galaxy](https://www.youtube.com/channel/UC2H-q9ZkIEwdNazdCZJTdsg):  vintage cpus, computer hardware and interesting old electronic stuff
  * [Coder's Tape](https://www.youtube.com/channel/UCQI-Ym2rLZx52vEoqlPQMdg): Laravel / PHP tutorials
