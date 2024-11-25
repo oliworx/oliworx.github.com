@@ -78,6 +78,7 @@ published: true
  * faked Windows XP desktop: [winxp.now.sh](https://winxp.now.sh)
  * Mac System 7: [archive.org/details/mac_MacOS_7.0.1_compilation](https://archive.org/details/mac_MacOS_7.0.1_compilation)
  * Atari ST running TOS 1.0: [jamesfriend.com.au/pce-js/atari-st/](https://jamesfriend.com.au/pce-js/atari-st/)
+ * KC85/3 und KC85/4 Emulator mit über 180 Spielen: [lanale.de/kc85_emu/](https://www.lanale.de/kc85_emu/KC85_Emu.html)
 
 ### More fun in the browser
  * EmuOS, emulator-focused Win9X desktop: [emupedia.net/beta/emuos](https://emupedia.net/beta/emuos/)
