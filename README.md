@@ -9,7 +9,6 @@ My personal website using [GitHub Pages][ghp] and [Cloudflare CDN][cf].
 Build status
 ------------
 
-[![Build Status](https://semaphoreci.com/api/v1/oliworx/oliworx-github-com/branches/master/shields_badge.svg)](https://semaphoreci.com/oliworx/oliworx-github-com) Semaphore CI  
 ![GitHub Actions Status](https://github.com/oliworx/oliworx.github.com/workflows/Website/badge.svg) GitHub Actions 
 
 Local development with Jekyll
