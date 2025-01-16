@@ -19,7 +19,7 @@ jobs:
     - name: install dependencies
       run: npm ci
     - name: Run tests
-      run: npm test
+      run: OPENSSL_CONF=/dev/null npm test
     - name: Applitools Eyes
       uses: colbyfayock/applitools-eyes-action@main
       with:
