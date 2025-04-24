@@ -9,42 +9,47 @@ My personal website using [GitHub Pages][ghp] and [Cloudflare CDN][cf].
 Build status
 ------------
 
-![GitHub Actions Status](https://github.com/oliworx/oliworx.github.com/workflows/Website/badge.svg) GitHub Actions 
+GitHub Actions: ![GitHub Actions Status](https://github.com/oliworx/oliworx.github.com/workflows/Website/badge.svg) 
 
-Local development with Jekyll
------------------------------
+Local development
+-----------------
 Install required packages:
-```
-sudo apt install ruby-bundler ruby-dev make gcc g++ zlib1g-dev
-```
 
-Install Jekyll and other dependencies:
-```
-sudo bundle install
-```
+    sudo apt install ruby-bundler ruby-dev make gcc g++ zlib1g-dev
+
+
+Install _Jekyll_ and other dependencies:
+
+    sudo bundle install
+
+
+Upgrade _Jekyll_:
+
+    bundle update github-pages
 
 To compile and run the Jekyll powered site: 
-```
-bundle exec jekyll serve
-```
+
+    bundle exec jekyll serve
+
 
 Generate tag pages
 ------------------
-Run `python3 generate-tags.py` or just `npm run tags`.  
+    python3 generate-tags.py
+
 Credit for the awesome python script goes to [qian256](https://github.com/qian256/qian256.github.io/blob/master/tag_generator.py) .
 
 Syntax highlighting
 -------------------
 
-install the rouge gem
+Install the _rouge_ gem:
 
     gem install kramdown rouge
 
-list the available styles:
+List the available styles:
 
     rougify help style
     
-generate the css file for the monokay style
+Generate the css file for the _monokay_ style
 
     rougify style monokai > styles/syntax.css
 
