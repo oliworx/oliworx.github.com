@@ -3,22 +3,22 @@ layout: post
 title: "From 43 to 20 seconds: making a PHPUnit suite faster with Claude Code"
 tags: php testing performance ai laravel benchmark
 ---
-Our main Laravel application has 2423 tests, and they run as a pre-commit hook — every single commit
+Our main Laravel application has 2423 tests, getting more and more every day.
+And they run as a pre-commit hook on my laptop — every single commit
 waits for the full suite to go green. The runtime is therefore not an abstract number on a dashboard,
 it is a tax I pay several times a day.
 
-These are not fast unit tests against SQLite in memory. Every test runs against a real MySQL server,
+Every test runs against a local MySQL database,
 in a separate test schema, with each test wrapped in a transaction that is rolled back afterwards.
-That is deliberate — the application leans on MySQL behaviour we would otherwise not be testing — but
-it does mean the suite has a database at the other end of it.
+That is deliberate — the application leans on MySQL behaviour we would otherwise not be testing.
 
-Running everything sequentially with plain `phpunit` took 136 seconds, so we moved to
-[ParaTest](https://github.com/paratestphp/paratest) a long time ago. With 20 parallel processes a
+Running everything sequentially with plain `phpunit` would take 136 seconds, so we moved to
+[ParaTest](https://github.com/paratestphp/paratest) some months ago. With 20 parallel processes a
 full run took about 43 seconds. That is livable, but it is exactly the kind of number you keep
 noticing.
 
-So I asked [Claude Code](https://claude.com/claude-code) a narrow question: with how many parallel
-processes does my suite run fastest? The answer was not the one I expected — 20 was already optimal,
+So I asked [Claude Code](https://claude.com/claude-code) a narrow question: _with how many parallel
+processes does my suite run fastest?_ The answer was not the one I expected — 20 was already optimal,
 and the process count was not my problem at all.
 
 ### The process count is not the lever
@@ -61,7 +61,7 @@ did, a reboot wipes it — I lost three seconds to that and briefly believed I h
 
 ### The big one: PCOV
 
-Then I remembered that this machine has [PCOV](https://github.com/krakjoe/pcov) installed, loaded
+Claude Code mentioned that this machine has [PCOV](https://github.com/krakjoe/pcov) installed, loaded
 globally via `20-pcov.ini`. I wrote about
 [installing it for 40 times faster code coverage](/2020/01/15/pcov-for-faster-code-coverage.html)
 back in 2020, and it is still the right tool for that job.
@@ -115,8 +115,8 @@ encoding as its own command.
 ### Bonus: stale test-database fixtures
 
 The last seven seconds came from somewhere else entirely. Our test database is seeded from SQL dumps,
-and those dumps had not been refreshed since July. In the meantime a scheduled command in production
-had cleaned up 592 misspelled filter values — but they were still sitting in the test fixtures. Every
+and those dumps had not been refreshed for some weeks. In the meantime a scheduled command in production
+had cleaned up 592 misspelled product properties — but they were still sitting in the test fixtures. Every
 test that exercised that command deleted all 592 of them again, one `DELETE` per row, inside its own
 transaction.
 
@@ -124,7 +124,7 @@ Refreshing the seeders from current production data took that test class from 10
 its own, and the whole suite from 27 to 20. Fixture drift is a slow leak: nothing fails, the tests
 just quietly do more work every month.
 
-### What I actually learned about measuring
+### Proper measuring is not easy
 
 Halfway through, an A/B comparison came back showing 45–54 seconds for both variants and no
 difference at all. The cause was embarrassing and instructive: editing `composer.json` had triggered
@@ -144,3 +144,5 @@ couple of times and believe the numbers.
 
 Two `php -d` flags and a refreshed set of fixtures. No test was rewritten, no parallelism was tuned —
 and every commit now waits a good 20 seconds less than it did.
+
+With the help of Claude Code this optimization session took me just half of a Friday afternoon, wow.
